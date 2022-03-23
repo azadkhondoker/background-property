@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+}
+.type1{
+    width: 100%;
+    text-align: center;
+    background: blue;
+    border: 5px solid red;
+    height: 200px;
+    line-height: 200px;
+    font-size: 32px;
+    background-clip: border-box;
+    padding: 15px;
+
+}
+.type2 {
+    width: 100%;
+    text-align: center;
+    background: blue;
+    border: 5px dashed red;
+    height: 200px;
+    line-height: 200px;
+    font-size: 32px;
+    background-clip: padding-box;
+    padding: 15px;
+
+}
+.type3{
+    width: 100%;
+    text-align: center;
+    background: blue;
+    border: 5px dotted red;
+    line-height: 200px;
+    font-size: 32px;
+    background-clip: content-box;
+    padding: 15px;
+}
+.type4{
+    width: 100%;
+    text-align: center;
+    border: 5px dotted red;
+    line-height: 200px;
+    font-size: 32px;
+    padding: 15px;
+    background-image: url(assets/img/tree-snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+
+}
+.type5{
+    width: 100%;
+    text-align: center;
+    border: 5px dotted red;
+    line-height: 200px;
+    font-size: 32px;
+    padding: 15px;
+    background-image: url(assets/img/tree-snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+}
+.type6{
+    width: 100%;
+    text-align: center;
+    border: 5px dotted red;
+    line-height: 200px;
+    font-size: 32px;
+    padding: 15px;
+    background-image: url(assets/img/tree-snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.type7 p{
+    font-size: 80px;
+}
+.type7{
+    width: 100%;
+    text-align: center;
+    border: 5px dotted red;
+    line-height: 200px;
+    font-size: 32px;
+    padding: 15px;
+    background-image: url(assets/img/blue-yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.type8{
+   padding: 100px;
+   margin: 30px;
+   border:5px solid red ;
+   background: url(assets/img/butterfly.png) bottom right no-repeat,url(assets/img/blue-yellow.jpg) top left repeat;
+
+
+
+}
